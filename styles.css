@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Geist:wght@100..900&family=Heebo:wght@100..900&family=Inika:wght@400;700&family=Karla:ital,wght@0,200..800;1,200..800&family=Markazi+Text:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=REM:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+body {
+  background-image: url(./img/background.png);
+
+}
+.watch-main{
+margin-top: 240px;
+
+}
+
+.digital-time {
+    width: 900px;
+    height: 300px;
+    background-color: #ffc7387c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 57px;
+    color: white;
+    margin: 0 auto;
+   
+}
+.clock{
+    width: 235px;
+    height: 221px;
+    font-size: 45px;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+    }
+    .clock p{
+        font-size: 18px;
+            }
+            .clock h4{
+              color: white;
+              font-size: 18px;
+            }
