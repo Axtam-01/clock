@@ -10,7 +10,7 @@ body {
 
 }
 .watch-main{
-margin-top: 240px;
+margin-top:65px;
 
 }
 
@@ -26,7 +26,7 @@ margin-top: 240px;
     margin: 0 auto;
    
 }
-.clock{
+.clock,.clocks{
     width: 235px;
     height: 221px;
     font-size: 45px;
@@ -40,7 +40,8 @@ margin-top: 240px;
     .clock p{
         font-size: 18px;
             }
-            .clock h4{
-              color: white;
-              font-size: 18px;
-            }
+           .clocks{
+            border-radius: 50%;
+           
+           }
+           
